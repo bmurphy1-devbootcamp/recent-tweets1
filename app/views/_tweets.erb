@@ -1,0 +1,6 @@
+<%@tweets.each do |t|%>
+<ul>
+  <li><%= t.text %></li>
+</ul>
+  <%end%>
+  <h3> Average time between tweets: <%= @user.average_time_between_tweets%> Seconds</h3>
